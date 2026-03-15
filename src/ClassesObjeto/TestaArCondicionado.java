@@ -1,3 +1,5 @@
+package ClassesObjeto;
+
 public class TestaArCondicionado {
 
     public static void main(String[] args) {

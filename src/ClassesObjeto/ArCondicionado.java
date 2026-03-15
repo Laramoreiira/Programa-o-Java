@@ -1,3 +1,5 @@
+package ClassesObjeto;
+
 public class ArCondicionado {
 
     // Atributos privados

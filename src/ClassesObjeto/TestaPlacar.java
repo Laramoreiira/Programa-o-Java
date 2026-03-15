@@ -1,3 +1,5 @@
+package ClassesObjeto;
+
 public class TestaPlacar {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package ClassesObjeto;
+
 public class Conta {
 
     // Atributos públicos
@@ -22,14 +24,14 @@ public class Conta {
             saldo += valor;
             System.out.println("Depósito de R$ " + valor + " realizado com sucesso.");
         } else {
-            System.out.println("Conta inativa. Não é possível depositar.");
+            System.out.println("ClassesObjeto.Conta inativa. Não é possível depositar.");
         }
     }
 
     // Método para sacar
     public void sacar(float valor) {
         if (!status) {
-            System.out.println("Conta inativa.");
+            System.out.println("ClassesObjeto.Conta inativa.");
         } else if (saldo >= valor) {
             saldo -= valor;
             System.out.println("Saque de R$ " + valor + " realizado com sucesso.");
@@ -42,7 +44,7 @@ public class Conta {
     public void encerrarConta() {
         if (saldo == 0) {
             status = false;
-            System.out.println("Conta encerrada com sucesso.");
+            System.out.println("ClassesObjeto.Conta encerrada com sucesso.");
         } else {
             System.out.println("Não é possível encerrar a conta. Saque o saldo restante primeiro.");
         }
@@ -51,7 +53,7 @@ public class Conta {
     // Método toString
     @Override
     public String toString() {
-        return "Número da Conta: " + numeroConta +
+        return "Número da ClassesObjeto.Conta: " + numeroConta +
                 "\nAgência: " + agencia +
                 "\nCliente: " + nomeCliente +
                 "\nSaldo Atual: R$ " + saldo +

@@ -1,8 +1,10 @@
+package ClassesObjeto;
+
 public class TestaConta {
 
     public static void main(String[] args) {
 
-        // Conta 1 do João Silva
+        // ClassesObjeto.Conta 1 do João Silva
         Conta c1 = new Conta(1234, 1, "João Silva");
 
         c1.depositar(500.00f);
@@ -11,7 +13,7 @@ public class TestaConta {
         System.out.println("\nEstado da conta c1:");
         System.out.println(c1);
 
-        // Conta 2 da Maria Souza
+        // ClassesObjeto.Conta 2 da Maria Souza
         Conta c2 = new Conta(5678, 1, "Maria Souza");
 
         System.out.println("\nTentando sacar R$ 50,00 da conta c2:");
