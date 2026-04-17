@@ -28,5 +28,8 @@ public class Main{
         s.venderIngresso(3,"A3","Inteira",30);
 
         s.imprimir();
+
+        //
+
     }
 }
